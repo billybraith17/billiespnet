@@ -208,7 +208,7 @@ See [ESPnet2](https://espnet.github.io/espnet/espnet2_tutorial.html).
     # We recommend you installing pytorch before installing espnet following https://pytorch.org/get-started/locally/
     pip install espnet
     # To install latest
-    # pip install git+https://github.com/espnet/espnet
+    # pip install git+https://github.com/billybraith17/espnet
     # To install additional packages
     # pip install "espnet[all]"
     ```
