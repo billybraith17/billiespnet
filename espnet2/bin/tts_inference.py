@@ -210,7 +210,9 @@ class Text2Speech:
             else:
                 input_feat = output_dict["feat_gen_denorm"]
             wav = self.vocoder(input_feat)
+            wav2 = self.vocoder(input_feat)
             output_dict.update(wav=wav)
+            output_dict.update(wav2=wav2)
 
         return output_dict
 
