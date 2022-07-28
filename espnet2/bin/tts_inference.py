@@ -225,8 +225,9 @@ class Text2Speech:
             
 
             wav = self.vocoder(input_feat)
-            wav2 = self.vocoder2(input_feat)
-            output_dict.update(wav=wav, wav2=wav2)
+#             wav2 = self.vocoder2(input_feat)
+#             output_dict.update(wav=wav, wav2=wav2)
+            output_dict.update(wav=wav)
 
         return output_dict
 
