@@ -379,8 +379,9 @@
             
 
             <span class="n">wav</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">vocoder</span><span class="p">(</span><span class="n">input_feat</span><span class="p">)</span>
-            <span class="n">wav2</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">vocoder2</span><span class="p">(</span><span class="n">input_feat</span><span class="p">)</span>
-            <span class="n">output_dict</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">wav</span><span class="o">=</span><span class="n">wav</span><span class="p">,</span> <span class="n">wav2</span><span class="o">=</span><span class="n">wav2</span><span class="p">)</span>
+<span class="c1">#             wav2 = self.vocoder2(input_feat)</span>
+<span class="c1">#             output_dict.update(wav=wav, wav2=wav2)</span>
+            <span class="n">output_dict</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">wav</span><span class="o">=</span><span class="n">wav</span><span class="p">)</span>
 
         <span class="k">return</span> <span class="n">output_dict</span>
 
