@@ -114,7 +114,7 @@ class Text2Speech:
             if isinstance(vocoder, torch.nn.Module):
                 vocoder.to(dtype=getattr(torch, dtype)).eval()
             self.vocoder = vocoder
-            self.vocoder2 = vocoder
+#             self.vocoder2 = vocoder
         logging.info(f"Extractor:\n{self.feats_extract}")
         logging.info(f"Normalizer:\n{self.normalize}")
         logging.info(f"TTS:\n{self.tts}")
