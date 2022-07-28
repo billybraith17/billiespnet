@@ -191,6 +191,17 @@ espnet2.bin.aggregate_stats_dirs
     :show-inheritance:
 
 
+.. _espnet2.bin.tts_inference-3:
+
+espnet2.bin.tts_inference-3
+---------------------------
+
+.. automodule:: espnet2.bin.tts_inference-3
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
 .. _espnet2.bin.asr_inference_k2:
 
 espnet2.bin.asr_inference_k2
@@ -307,17 +318,6 @@ espnet2.bin.enh_inference
 -------------------------
 
 .. automodule:: espnet2.bin.enh_inference
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
-.. _espnet2.bin.tts_inference:
-
-espnet2.bin.tts_inference
--------------------------
-
-.. automodule:: espnet2.bin.tts_inference
     :members:
     :undoc-members:
     :show-inheritance:
