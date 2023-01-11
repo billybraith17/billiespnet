@@ -1,5 +1,8 @@
 <div align="left"><img src="doc/image/espnet_logo1.png" width="550"/></div>
 
+This is an edited version of the ESPNET package which I developed as part of my dissertation
+
+
 # ESPnet: end-to-end speech processing toolkit
 
 |system/pytorch ver.|1.4.0|1.5.1|1.6.0|1.7.1|1.8.1|1.9.1|1.10.2|1.11.0|
