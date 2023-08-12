@@ -1,6 +1,6 @@
 <div align="left"><img src="doc/image/espnet_logo1.png" width="550"/></div>
 
-This is an edited version of the ESPNET package which I developed as part of my dissertation
+**This is an edited version of the ESPNET package which I developed as part of my dissertation**
 
 
 # ESPnet: end-to-end speech processing toolkit
